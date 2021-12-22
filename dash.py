@@ -9,8 +9,6 @@ Neria Rivlin and Yoav Blonder
 # Question 4
 
 # Imports
-import pip as pip
-pip.require("Twisted==21.3.1")
 import matplotlib.pyplot as plt
 # matplotlib.use('Qt5Agg')
 import numpy as np
