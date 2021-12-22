@@ -10,7 +10,6 @@ Neria Rivlin and Yoav Blonder
 
 # Imports
 import matplotlib.pyplot as plt
-# matplotlib.use('Qt5Agg')
 import numpy as np
 import pandas as pd
 from scipy import io
