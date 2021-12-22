@@ -9,7 +9,6 @@ Neria Rivlin and Yoav Blonder
 # Question 4
 
 # Imports
-import matplotlib
 import matplotlib.pyplot as plt
 # matplotlib.use('Qt5Agg')
 import numpy as np
