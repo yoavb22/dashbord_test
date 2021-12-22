@@ -1,3 +1,4 @@
+import pip as pip
 import matplotlib.pyplot as plt
 # matplotlib.use('Qt5Agg')
 import numpy as np
