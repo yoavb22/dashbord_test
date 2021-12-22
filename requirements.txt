@@ -8,4 +8,3 @@ from sklearn.cluster import SpectralClustering
 import streamlit as st
 import sys, asyncio
 import cv2
-'/home/appuser/venv/bin/python -m pip install --upgrade pip'
