@@ -2,6 +2,6 @@ streamlit
 numpy
 pandas
 scipy
-scikit-learn.cluster
+scikit-learn
 cv2
 matplotlib.pyplot
