@@ -9,7 +9,6 @@ Neria Rivlin and Yoav Blonder
 # Question 4
 
 # Imports
-
 import numpy as np
 import pandas as pd
 from scipy import io
@@ -17,6 +16,10 @@ from sklearn.cluster import KMeans
 from sklearn.cluster import SpectralClustering
 import streamlit as st
 import matplotlib.pyplot as plt
+#
+# import sys, asyncio
+# import cv2
+
 # if sys.platform == "win32" and (3, 6, 0) <= sys.version_info < (3, 9, 0):
 #     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
@@ -71,8 +74,8 @@ st.set_page_config(
     }
 )
 
-path = "https://github.com/yoavb22/dashbord_test/blob/main/Data6.mat"
-data_6 = io.loadmat(path)
+path = "C:\\Users\\Yoav\\Documents\\university\\year4semester1\\geomety of data\\ex\\ex2\\Data6.mat"
+# data_6 = io.loadmat(path)
 
 
 def plot_data(df):
@@ -128,6 +131,8 @@ def plot_kmeans_plus_plus_clustering(df):
 # plot_kmeans_plus_plus_clustering(smile)
 # plot_kmeans_plus_plus_clustering(line)
 def main():
+    uploaded_file_1 = st.file_uploader(path)
+    data_6 = io.loadmat(uploaded_file_1)
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -159,7 +164,7 @@ def main():
 
     with col3:
         st.subheader("Steph Yuval & Ariella")
-        video_file = open('https://github.com/yoavb22/dashbord_test/blob/main/IMG_6713.mp4', 'rb')
+        video_file = open('C:\\Users\\Yoav\\Downloads\\IMG_6713.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
 main()
