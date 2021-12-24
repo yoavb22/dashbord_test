@@ -3,6 +3,5 @@ numpy
 pandas
 scipy
 sklearn.cluster
-sklearn.cluster
 cv2
 matplotlib.pyplot
