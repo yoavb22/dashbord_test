@@ -90,8 +90,8 @@ def plot_data(df):
 
 
 # st.pyplot(plot_data(data_6))
-smile = data_6["XX"][0][2]
-line = data_6["XX"][0][4]
+# smile = data_6["XX"][0][2]
+# line = data_6["XX"][0][4]
 
 
 # smile
