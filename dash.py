@@ -71,7 +71,7 @@ st.set_page_config(
     }
 )
 
-path = "C:\\Users\\Yoav\\Documents\\university\\year4semester1\\geomety of data\\ex\\ex2\\Data6.mat"
+path = "https://github.com/yoavb22/dashbord_test/blob/main/Data6.mat"
 data_6 = io.loadmat(path)
 
 
@@ -159,7 +159,7 @@ def main():
 
     with col3:
         st.subheader("Steph Yuval & Ariella")
-        video_file = open('C:\\Users\\Yoav\\Downloads\\IMG_6713.mp4', 'rb')
+        video_file = open('https://github.com/yoavb22/dashbord_test/blob/main/IMG_6713.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
 main()
