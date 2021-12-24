@@ -16,7 +16,6 @@ from scipy import io
 from sklearn.cluster import KMeans
 from sklearn.cluster import SpectralClustering
 import streamlit as st
-import cv2
 import matplotlib.pyplot as plt
 # if sys.platform == "win32" and (3, 6, 0) <= sys.version_info < (3, 9, 0):
 #     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
