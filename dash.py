@@ -132,7 +132,7 @@ def plot_kmeans_plus_plus_clustering(df):
 # plot_kmeans_plus_plus_clustering(line)
 def main():
     uploaded_file_1 = st.file_uploader(path)
-    data_6 = io.loadmat(uploaded_file_1)
+    data_6 = pd.read_csv(uploaded_file_1)
     col1, col2, col3 = st.columns(3)
 
     with col1:
