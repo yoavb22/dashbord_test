@@ -9,16 +9,15 @@ Neria Rivlin and Yoav Blonder
 # Question 4
 
 # Imports
-import matplotlib.pyplot as plt
+
 import numpy as np
 import pandas as pd
 from scipy import io
 from sklearn.cluster import KMeans
 from sklearn.cluster import SpectralClustering
 import streamlit as st
-import sys, asyncio
 import cv2
-
+import matplotlib.pyplot as plt
 # if sys.platform == "win32" and (3, 6, 0) <= sys.version_info < (3, 9, 0):
 #     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
