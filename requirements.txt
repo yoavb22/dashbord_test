@@ -1,8 +1,8 @@
-numpy as np
-pandas as pd
-scipy import io
-sklearn.cluster import KMeans
-sklearn.cluster import SpectralClustering
-streamlit as st
+streamlit
+numpy
+pandas
+scipy
+sklearn.cluster
+sklearn.cluster
 cv2
-matplotlib.pyplot as plt
+matplotlib.pyplot
